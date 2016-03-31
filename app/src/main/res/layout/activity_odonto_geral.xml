@@ -1,0 +1,243 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <!-- android:background="#7ff3e4"-->
+
+        <TextView
+            android:id="@+id/txtSimulado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Simulado"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/questao1"
+            android:textColor="#0b0b0b"
+            android:textSize="10dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/RespostaA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:onClick="selectItem"
+                android:text="@string/a"
+                android:textSize="10dp" />
+            <!--android:onClick="selectItem"-->
+
+            <RadioButton
+                android:id="@+id/RespostaB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:onClick="selectItem"
+                android:text="@string/b"
+                android:textSize="10dp" />
+            <!-- android:onClick="selectItem"-->
+
+            <RadioButton
+                android:id="@+id/RespostaC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:onClick="selectItem"
+                android:text="@string/c"
+                android:textSize="10dp" />
+            <!--android:onClick="selectItem"-->
+
+            <RadioButton
+                android:id="@+id/RespostaD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:onClick="selectItem"
+                android:text="@string/d"
+                android:textSize="10dp" />
+            <!--android:onClick="selectItem"-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnConfirmar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="clickConfirmar"
+                    android:text="Confirmar"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtResposta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/questao1"
+            android:textColor="#0b0b0b"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RespostaA1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/a"
+            android:textSize="10dp" />
+        <!--android:onClick="selectItem"-->
+
+        <RadioButton
+            android:id="@+id/RespostaB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/b"
+            android:textSize="10dp" />
+        <!-- android:onClick="selectItem"-->
+
+        <RadioButton
+            android:id="@+id/RespostaC1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/c"
+            android:textSize="10dp" />
+        <!--android:onClick="selectItem"-->
+
+        <RadioButton
+            android:id="@+id/RespostaD1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/d"
+            android:textSize="10dp" />
+        <!--android:onClick="selectItem"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConfirmar1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="clickConfirmar"
+                android:text="Confirmar"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtResposta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/questao1"
+            android:textColor="#0b0b0b"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RespostaA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/a"
+            android:textSize="10dp" />
+        <!--android:onClick="selectItem"-->
+
+        <RadioButton
+            android:id="@+id/RespostaB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/b"
+            android:textSize="10dp" />
+        <!-- android:onClick="selectItem"-->
+
+        <RadioButton
+            android:id="@+id/RespostaC2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/c"
+            android:textSize="10dp" />
+        <!--android:onClick="selectItem"-->
+
+        <RadioButton
+            android:id="@+id/RespostaD2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="selectItem"
+            android:text="@string/d"
+            android:textSize="10dp" />
+        <!--android:onClick="selectItem"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConfirmar2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="clickConfirmar"
+                android:text="Confirmar"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtResposta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</ScrollView>

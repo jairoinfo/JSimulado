@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">JSimulado</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_odonto_geral">OdontoGeral</string>
+
+    <!-- Questão 01 -->
+    <string name="questao1">1 - Os cistos geralmente são lesões radiolúcidas circunscritas,expansivas, com formato arredondado e limites definidos.
+        Quanto às características dessas lesões, pode-se afirmaro seguinte:</string>
+    <string name="a">a) o cisto periapical está associado ao ápice de um dentevitalizado, e é assintomático.</string>
+    <string name="b">b) o cisto do ducto do canal incisivo tem o formato semelhanteao do coração, e o dente apresenta vitalidade.</string>
+    <string name="c">c) o cisto dentígero pode deslocar o dente da sua posiçãooriginal e causar reabsorção radicular dos dentesvizinhos.</string>
+    <string name="d">d) o queratocisto odontogênico tem caráter crônico, poucoagressivo e de baixa recidiva</string>
+    <!-- Questão 02 -->
+    <string name="questao2">2 - As limas endodônticas são estandardizadas pelo númerorelatado no cabo e pela cor, independendo de suas característicase da marca de fabricação.
+        Assim, a lima 15, primeirasérie, possui cor</string>
+    <string name="a1">Rosa.</string>
+    <string name="b1">Cinza.</string>
+    <string name="c1">Branca</string>
+    <string name="d1">Amarela.</string>
+
+</resources>
